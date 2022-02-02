@@ -1,7 +1,7 @@
 const express = require("express"); //allows us to use express, so we can access routes 
 const app = express();
 
-//Listen on port 8080
+//Server is listening on port 8080
 app.listen(8080, () => {
     console.log("server on!");
 });
@@ -14,4 +14,4 @@ app.get("/claudias-favorite-movie", (req, res)=> {
         <h1> Mrs. Doubtfire</h1>
     `);
 })
-//^^ we just created a server! in just 16 lines of code!
+//^^ hey we just created a server! in just 16 lines of code!
